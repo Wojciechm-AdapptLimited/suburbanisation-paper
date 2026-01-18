@@ -1,0 +1,176 @@
+\documentclass[final,3p,times,authoryear,12pt]{elsarticle}
+
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage[polish]{babel}
+\usepackage{fontspec}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{lipsum}
+
+\journal{Studia nad Ludnością i Rodzinami}
+\abstracttitle{Streszczenie}
+\keywordtitle{Słowa kluczowe}
+\bibliographystyle{elsarticle-harv}
+
+\begin{document}
+
+\begin{frontmatter}
+	\title{Wpływ procesu suburbanizacji na proces formowania się rodzin na przykładzie Bydgoszczy i gmin ościennych}
+
+	\author[uj]{Wojciech Mączka}
+	\affiliation[uj]{organization={Instytut Socjologii, Uniwersytet Jagielloński},
+		city={Kraków},
+		country={Polska}}
+
+	\begin{abstract}
+		Artykuł prezentuje eksploracyjną analizę procesu formowania rodzin w Bydgoszczy i gminach ościennych w kontekście procesu suburbanizacji i eksurbanizacji, "rozlewania się"\ miast (\textit{urban sprawl}) w tym rejonie.
+	\end{abstract}
+
+	\begin{keyword}
+		suburbanizacja \sep małżeństwa \sep rodziny \sep demografia \sep Bydgoszcz
+	\end{keyword}
+\end{frontmatter}
+
+\section{Wprowadzenie}
+
+Suburbanizacja, czyli zjawisko polegające na wyludnianiu się centrów miast, przy wzroście obszarów podmiejskich, jest jednym z najważniejszych trendów demograficznych w ostatnich latach. Problem "rozlewania się"\ miast podejmowany był zarówno przez badaczy reprezentujących różne dyscypliny naukowe, jak i przez polityków i praktyków \citep{sleszynski2022suburbanizacja}. Suburbanizacja była także przedmiotem konferencji, w tym konferencji zoraganizowanej w ramach III Kongresu Demograficznego \citep{grochowski2023suburbanizacja}.
+
+Celem niniejszego artykułu jest zbadanie wpływu, jaki proces suburbanizacji ma na formowanie się rodzin, ze szczególnym uwzględnieniem wpływu na dzietność. W analizie skupiono się na zbadaniu zmian w przepływach migracyjnych, zawieraniu małżeństw i liczbie urodzeń. Badanym obszarem jest miasto Bydgoszcz i gminy ościenne w powiecie bydgoskim (Białe Błota, Dąbrowa Chełmińska, Nowa Wieś Wielka, Osielsko, Sicienko, Solec Kujawski).
+
+Źródłem wszystkich wykorzystanych w tym artykule danych są bazy danych Głównego Urzędu Statystycznego — Bank Danych Lokalnych (\url{https://bdl.stat.gov.pl/bdl/start}), Dziedzinowe Bazy Wiedzy (\url{https://dbw.stat.gov.pl/}) oraz Baza Danych Demografia (\url{https://demografia.stat.gov.pl/BazaDemografia/StartIntro.aspx})
+
+\section{Skala zjawiska suburbanizacji w badanym rejonie}
+
+Bydgoszcz w 2024 roku liczyła 324 tys. mieszkańców, co w porównaniu do 386 tys. mieszkańców w 1995 roku oznacza spadek o ok. 16.1\%. W tym samym okresie w każdej gminie ościennej w powiecie bydgoskim liczba mieszkańców rosła, choć w zróżnicowanym tempie. Największy wzrost odnotowano w dwóch gminach — Białych Błotach i Osielsku, z odpowiednio 9,2 tys. i 5,8 tys. osób w 1995 roku do 26,5 tys. i 19 tys. osób w 2024 roku, co stanowi wzrost o odpowiednio 280\% i 327\% \citep{bdl2026}. Według prognoz ludności dla gmin na lata 2023-2040 trendy wzrostowe w tych gminach zostaną zachowane, chociaż wzrost będzie wolniejszy niż w latach 1995-2024 \citep{gus2023prognoza}.
+
+Odnotowany wzrost liczby mieszkańców w gminach ościennych w powiecie bydgoskim był efektem przede wszystkim migracji z Bydgoszczy, a cały rejon bydgoski znajduje się w czołówce miast wojewódzkich pod względem stosunku liczby przemeldowań z miasta do strefy podmiejskiej względem innych źródeł napływu, co przedstawiono na mapie \labelcref{fig:struktura-naplywow}.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.75\textwidth]{img/struktura-naplywow.png}
+	\caption{Liczba i struktura rejestrowanych napływów do stref podmiejskich (dla miast powyżej 35 tys. mieszkańców, w tym wszystkich miast na prawach powiatu) w latach 2004-2020 \\ \\
+		Źródło: Ministerstwo Funduszy i Polityki Regionalnej, 2022, Krajowa Polityka Miejska 2030, s. 42 (oprac. P. Śleszyński), \url{https://www.gov.pl/web/fundusze-regiony/polityka-miejska}}
+	\label{fig:struktura-naplywow}
+\end{figure}
+
+Według danych GUS w Bydgoszczy od 20 lat notuje się ujemne saldo migracji, z minimum odnotowanym w 2021 roku wynoszącym poniżej -1900 osób. W zgoła inny sposób prezentowała się sytuacja w gminach ościennych, gdzie saldo migracji w latach 1995-2024 było w większości dodatnie, ze szczególnie wysokimi wartościami w Białych Błotach i Osielsku. Dla wyżek wymienionych gmin saldo migracji pozostawało dodatnie przez cały badany okres, osiągając najwyższe wartości w latach 2003-2007 i 2020-2022. Na rysunku \labelcref{fig:saldo-migracji} przedstawiono saldo migracji w Bydgoszczy, Białych Błotach i Osielsku w latach 2002-2024. Szczególnie interesujące są tu lata 2007-2008 i 2020-2021, w których nastąpiło odwrócenie trendu wymeldowań z Bydgoszczy, co prawdopodobnie było efektem globalnego kryzysu finansowego, który rozpoczął się w Stanach Zjednoczonych w 2007 roku \citep{radomska2013globalny-kryzys-finansowy}, a także pandemii COVID-19 w 2020 roku \citep{kazak2023housing-market-covid-19}.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.75\textwidth]{img/saldo_migracji.png}
+	\caption{Saldo migracji w Bydgoszczy, Białych Błotach i Osielsku w latach 2002-2024. Brak danych dla roku 2015 zaznaczono linią przerywaną. Pionowe linie oznaczają rok 2007 i 2021, w których nastąpiło odwrócenie trendu wymeldowań z Bydgoszczy. \\ \\ Źródło: Opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS \citep{bdl2026}}
+	\label{fig:saldo-migracji}
+\end{figure}
+
+Tak wysoka intensywność zachodzenia procesu suburbanizacji w badanym rejonie pociąga za sobą negatywne konsekwencje. Jednym z wyzwań, z którymi mierzy się rejon Bydgoszczy, są wysokie koszty związane z infrastrukturą komunikacyjną \citep{piatkowski2019suburbanizacja}. Inne wyzwania związane są z dzietnością. Jak wynika z danych GUS \citep{dbw2026}, a także z reportu o stanie gminy opublikowanego przez urząd gminy Białe Błota \citep{bialeblota2023raport}, liczba dzieci objętych wychowaniem przedszkolnym wzrosła 8-krotnie na przestrzeni ostatnich dekad. W celu zrozumienia podobieństw i różnic w formowaniu się rodzin w badanym rejonie przeprowadzono eksploracyjną analizę danych Głównego Urzędu Statystycznego, której wyniki przedstawiono w następnej sekcji.
+
+\section{Podobieństwa i różnice}
+
+W celu scharakteryzowania wpływu, jaki proces suburbanizacji ma na proces formowania się rodzin, warto najpierw zwrócić uwagę czy na wszystkich badanych obszarach zostały zachowane podobne trendy w zawieraniu małżeństw. W tabeli \labelcref{tab:malzenstwa} przedstawiono liczbę małżeństw zawartych na 1000 ludności w latach 2021-2024 w Bydgoszczy i gminach ościennych w powiecie bydgoskim. W całym badanym okresie różnice w liczbie małżeństw zawartych na 1000 ludności były nieznaczne, choć występowały wahania w zależności od gminy. Warto zaznaczyć, że miasto-rdzeń nie różniło się tu znacząco od gmin ościennych.
+
+\begin{table}[!h]
+	\centering
+	\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+		\begin{tabular}{p{0.3\linewidth}>{\raggedleft\arraybackslash}p{0.1\linewidth}>{\raggedleft\arraybackslash}p{0.1\linewidth}>{\raggedleft\arraybackslash}p{0.1\linewidth}>{\raggedleft\arraybackslash}p{0.1\linewidth}}
+			\toprule
+			\multirow{2}{*}{Gmina} & \multicolumn{4}{c}{Małżeństwa zawarte na 1000 ludności}                      \\
+			\cmidrule(l{3pt}r{3pt}){2-5}
+			                       & 2021                                                    & 2022 & 2023 & 2024 \\
+			\midrule
+			Białe Błota            & 4.0                                                     & 4.1  & 3.6  & 3.9  \\
+			Dąbrowa Chełmińska     & 4.6                                                     & 4.1  & 3.6  & 2.5  \\
+			Nowa Wieś Wielka       & 3.6                                                     & 4.3  & 2.7  & 3.3  \\
+			Osielsko               & 3.2                                                     & 4.0  & 3.1  & 4.1  \\
+			Sicienko               & 4.9                                                     & 5.6  & 4.1  & 3.3  \\
+			Solec Kujawski         & 4.6                                                     & 4.1  & 4.2  & 3.3  \\
+			\addlinespace
+			Bydgoszcz              & 4.4                                                     & 4.6  & 4.3  & 4.0  \\
+			\bottomrule
+		\end{tabular}}
+	\caption{Małżeństwa zawarte na 1000 ludności w Bydgoszczy i gminach ościennych w latach 2021-2024 \\ \\ Źródło: Bank Danych Lokalnych GUS \citep{bdl2026}}
+	\label{tab:malzenstwa}
+\end{table}
+
+Inaczej sprawa ma się z dzietnością oraz przyrostem naturalnym. Tutaj różnice między Bydgoszczy a gminami ościennymi są znaczące, choć w ostatnich 5 latach zarówno w powiecie m. Bydgoszcz, jak i w powiecie bydgoskim zanotowano tendencję spadkową. Na rysunku \labelcref{fig:dzietnosc} przedstawiono dzietność w latach 2002-2024 w powiecie m. Bydgoszcz i powiecie bydgoskim.
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.75\textwidth]{img/dzietnosc.png}
+	\caption{Poziom współczynnika dzietności w latach 2002-2024 w powiecie m. Bydgoszcz i powiecie bydgoskim \\ \\ Źródło: Opracowanie własne na podstawie danych z Dziedzinowych Baz Wiedzy GUS \citep{dbw2026}}
+	\label{fig:dzietnosc}
+\end{figure}
+
+Podobnie sytuacja ma się z liczbą urodzeń na 1000 ludności. Jak wynika z danych GUS, gminy będące suburbiami Bydgoszczy przez większość badanego okresu znacząco przewyższały liczbą urodzeń na 1000 mieszkańców miasto-rdzeń, lecz w ciągu ostatnich 5 lat różnice te się zrównały \citep{bdl2026}.
+
+Zauważalną i stabilną przewagę powiatu bydgoskiego nad Bydgoszczą zauważyć można jednak w przypadku udziału urodzeń wysokiej kolejności (3 i kolejne) w ogólnej liczbie urodzeń. Tutaj udział urodzeń prowadzący do powstania lub utrwalenia wielodzietności był i pozostawał znacząco wyższy przez cały badany okres. Na rysunku \labelcref{fig:kolejnosc_urodzen} przedstawiono udział urodzeń wysokiej kolejności w ogólnej liczbie urodzeń w latach 2002-2024 w powiecie m. Bydgoszcz i powiecie bydgoskim.
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/kolejnosc_urodzen.png}
+	\caption{Udział urodzeń wysokiej kolejności w ogólnej liczbie urodzeń w latach 2002-2024 w powiecie m. Bydgoszcz i powiecie bydgoskim. Brak danych dla roku 2018 wynika z tego, iż w tym roku jednorazowo karta statystyczna urodzenia nie obejmowała informacji o kolejności urodzenia. \\ \\ Źródło: Opracowanie własne na podstawie danych z Dziedzinowych Baz Wiedzy GUS \citep{dbw2026}}
+	\label{fig:kolejnosc_urodzen}
+\end{figure}
+
+Przewaga suburbiów Bydgoszczy związanych z dzietnością widoczna jest także w przypadku innych wskaźników demograficznych, takich jak przyrost naturalny. Według danych GUS w latach 2002-2024 przyrost naturalny na 1000 mieszkańców w Bydgoszczy był znacznie niższy niż w gminach ościennych, a w 2023 roku wyniósł on -5,9. Dla kontrastu, w gminach takich jak Białe Błota i Osielsko przyrost naturalny na 1000 mieszkańców wyniósł odpowiednio -0,76 i 0,37. Na tle innych gmin ościennych Bydgoszczy wyjątkowy był tylko Solec Kujawski, w którym przyrost naturalny na 1000 mieszkańców w 2023 roku był niższy niż w Bydgoszczy \citep{bdl2026}. W tabeli \labelcref{tab:przyrost_naturalny} przedstawiono przyrost naturalny na 1000 ludności w Bydgoszczy i gminach ościennych w latach 2021-2024.
+
+\begin{table}[!ht]
+	\centering
+	\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+		\begin{tabular}{p{0.3\linewidth}>{\raggedleft\arraybackslash}p{0.1\linewidth}>{\raggedleft\arraybackslash}p{0.1\linewidth}>{\raggedleft\arraybackslash}p{0.1\linewidth}>{\raggedleft\arraybackslash}p{0.1\linewidth}}
+			\toprule
+			\multirow{2}{*}{Gmina} & \multicolumn{4}{c}{Przyrost naturalny na 1000 ludności}                         \\
+			\cmidrule(l{3pt}r{3pt}){2-5}
+			                       & 2021                                                    & 2022  & 2023  & 2024  \\
+			\midrule
+			Białe Błota            & 0.85                                                    & 1.02  & 0.66  & -0.76 \\
+			Dąbrowa Chełmińska     & -6.51                                                   & 0.00  & -0.12 & -3.36 \\
+			Nowa Wieś Wielka       & -3.15                                                   & 0.78  & -0.29 & -2.12 \\
+			Osielsko               & 2.02                                                    & 3.94  & 1.60  & 0.37  \\
+			Sicienko               & -0.48                                                   & -1.78 & 1.01  & -1.45 \\
+			Solec Kujawski         & -4.46                                                   & -5.27 & -3.48 & -5.89 \\
+			\addlinespace
+			Bydgoszcz              & -6.90                                                   & -5.84 & -5.94 & -5.67 \\
+			\bottomrule
+		\end{tabular}}
+	\caption{Przyrost naturalny na 1000 ludności w Bydgoszczy i gminach ościennych w latach 2021-2024 \\ \\ Źródło: Bank Danych Lokalnych GUS \citep{bdl2026}}
+	\label{tab:przyrost_naturalny}
+\end{table}
+
+Podsumowując, choć liczba zawieranych małżeństw w Bydgoszczy była porównywalna z gminami ościennymi, to te wykazały się znacząco wyższą dzietnością i przyrostem naturalnym, właściwie przez zdecydowaną większość badanego okresu. Największą przewagę zauważyć było można w przypadku gmin, które w okresie 2002-2024 wzrosły najbardziej, tj. w Białych Błotach i Osielsku. Dla całego powiatu bydgoskiego dodatkowo zauważalna była przewaga urodzeń wysokiej kolejności w ogólnej liczbie urodzeń, co może być sygnałem świadczącym o tym, że uzyskanie lepszych warunków mieszkaniowych przez pary warunkowało zdecydowanie się na wielodzietność \citep{grochowski2023suburbanizacja}.
+
+\section{Dyskusja}
+
+Z analizy przeprowadzonej w dwóch poprzednich sekcjach wyciągnąć można dwa podstawowe wnioski — rejon Bydgoszczy jest rejonem, w którym proces suburbanizacji zachodzi i zachodził z dużą intensywnością, a także że suburbia Bydgoszczy charakteryzują się znacząco wyższą dzietnością i przyrostem naturalnym niż miasto-rdzeń. Przyczyn takiego stanu rzeczy warto szukać w czynnikach społecznych, w tym tych wynikających z potrzeby uzyskania lepszych warunków mieszkaniowych i dążenia do poprawy jakości życia. Wśród przewag, którymi charakteryzują się suburbia, wyróżnić można, m.in.:
+
+\begin{itemize}
+	\item lepsze warunki mieszkaniowe, w tym posiadanie własnego domu jednorodzinnego,
+	\item pragnienie kontaktu z naturą,
+	\item mieszkanie w miejscu pozbawionym miejskich zanieczyszczeń i tłoku,
+	\item atrakcyjność przestrzeni podmiejskiej \citep{degorski2023suburbanizacja}.
+\end{itemize}
+
+W kontekście formowania się rodzin i decyzji prokreacyjnych atrakcyjność suburbiów przejawia się przede wszystkim w możliwości uzyskania większej przestrzeni mieszkalnej, która jest kluczowym czynnikiem umożliwiającym posiadanie większej liczby dzieci. Dom jednorodzinny w strefie podmiejskiej oferuje nie tylko więcej metrażu, ale także dostęp do prywatnej przestrzeni zewnętrznej, ogrodu czy podwórka, co jest szczególnie istotne dla rodzin z dziećmi. Jak wynika z przedstawionych wcześniej danych, wyższy udział urodzeń wysokiej kolejności w gminach ościennych Bydgoszczy sugeruje, że poprawa warunków mieszkaniowych poprzez migrację do suburbiów często koreluje z decyzją o powiększeniu rodziny. Przestrzeń podmiejska, charakteryzująca się niższą gęstością zaludnienia i większym dostępem do terenów zielonych, stwarza również bardziej sprzyjające środowisko dla wychowania dzieci, co może wpływać na skłonność par do planowania większej liczby potomstwa.
+
+Warto przy tym zauważyć, że wyższa dzietność w suburbiach może być zarówno efektem migracji rodzin już z dziećmi, jak i decyzji prokreacyjnych podejmowanych przez pary, które osiedliły się w strefie podmiejskiej wcześniej, przed założeniem rodziny lub na początkowym etapie jej formowania. Trudno jednak jednoznacznie, na podstawie jedynie tylko danych statystycznych, odpowiedzieć na pytania dotyczące przyczynowości, tzn. w jakim stopniu zamierzenia prokreacyjne podejmowane przez pary są przyczyną migracji (migracja jest czynnikiem umożliwiającym realizację planów w kontekście posiadania potomstwa), czy też odwrotnie, migracja jako efekt poszerzenia rodziny (migracja jako czynnik poprawiający jakość życia po realizacji zamierzeń prokreacyjnych, dzięki lepszym warunkom mieszkaniowym i środowiskowym) \citep{szukalski2023suburbanizacja}.
+
+\section{Podsumowanie}
+
+Przedstawione w niniejszym artykule dane statystyczne wskazują na wysoką intensywność suburbanizacji w rejonie Bydgoszczy, a także na znacząco wyższą dzietność i przyrost naturalny w gminach ościennych względem miasta. Analiza przepływów migracyjnych w latach 1995-2024 ujawniła systematyczny odpływ ludności z Bydgoszczy, przy jednoczesnym dynamicznym wzroście liczby mieszkańców w gminach ościennych, szczególnie w Białych Błotach i Osielsku.
+
+W zakresie formowania się rodzin zaobserwowano, że wskaźniki zawierania małżeństw w Bydgoszczy i gminach ościennych były porównywalne, co sugeruje, że proces suburbanizacji nie wpływa w istotny sposób na decyzje dotyczące zawierania związków małżeńskich. Istotne różnice ujawniły się natomiast w sferze dzietności — gminy ościenne charakteryzowały się wyższym współczynnikiem dzietności, wyższą liczbą urodzeń na 1000 mieszkańców oraz znacząco wyższym udziałem urodzeń wysokiej kolejności w ogólnej liczbie urodzeń, a szczególnie wyraźna przewaga suburbiów widoczna była w przypadku przyrostu naturalnego.
+
+Ustalenia te wskazują na złożony charakter związku między suburbanizacją a procesami demograficznymi. Zrozumienie mechanizmów stojących za związkami między suburbanizacją a formowaniem się rodzin wymaga dalszych badań, w tym analiz jakościowych pozwalających na lepsze uchwycenie przyczynowości decyzji migracyjnych i prokreacyjnych.
+
+\section*{Notka autorska}
+
+Niniejszy artykuł został napisany z wykorzystaniem edytora tekstu Cursor (\url{https://cursor.com/}), a dostępna w nim funkcjonalność AI została wykorzystana do pracy edytorskiej nad tekstem, oraz, w ograniczonym stopniu, do sugestii dotyczących wprowadzania zmian w tekście.
+
+
+
+\bibliography{references}
+
+\end{document}
